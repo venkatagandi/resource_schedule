@@ -1,0 +1,28 @@
+/* Styles go here */
+table,th,tr,td,tbody {
+ border: 1px solid black;
+ border-collapse:collapse;
+ padding:0.5em;
+}
+.padding-zero {
+ padding:0;
+}
+.border-none {
+ border: none;
+}
+.border-collapse {
+ border-collapse:collapse;
+}
+.font-weight-bold {
+ font-weight: bold;
+}
+td {
+ min-width: 50px;
+ padding:0px;
+ min-height: 80px;
+ text-align: center;
+
+
+
+basic table sample
+

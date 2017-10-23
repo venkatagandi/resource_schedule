@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onLoad="onAppLoad()">
+  <h1>Hello Plunker!</h1>
+  <table id="resourceSchedule">
+    <tr class="filter">
+      <th class="filter"><button>Quick Schedule</button></th>
+      <th id="filterBar" class="filter">
+        <button>Weekly</button>
+        <button>present week</button>
+        <button>#hours</button>
+        <button>cool map</button>
+        <button>export</button>
+      </th>
+    </tr>
+    <tr>
+      <th rowspan="2" class="view--resource---minWidth">
+        <button>View all Resources</button>
+      </th>
+      <th colspan="5" class="timeline-headers">
+        Oct 23 - Oct 27
+      </th>
+      <th colspan="5" class="timeline-headers">
+        Oct 30 - Nov 03
+      </th>
+      <th colspan="5" class="timeline-headers">
+          Nov 06 - Nov 10
+      </th>
+      <th colspan="5" class="timeline-headers">
+          Nov 13 - Nov 17
+      </th>
+      <th colspan="5" class="timeline-headers">
+          Nov 20 - Nov 24
+      </th>
+      <th colspan="5" class="timeline-headers">
+          Nov 27 - Dev 01
+      </th>
+      <th colspan="5" class="timeline-headers">
+          Dec 04 - Dev 08
+      </th>
+      <th colspan="5" class="timeline-headers">
+          Dec 11 - Dev 15
+      </th>
+      <th colspan="5" class="timeline-headers">
+          Dec 18 - Dev 22
+      </th>
+      <th colspan="5" class="timeline-headers">
+          Dec 25 - Dev 29
+      </th>
+    </tr>
+    <tr>
+      <td><b>Mon<br/>23 Oct</b></td>
+      <td><b>Tue<br/>24 Oct</b></td>
+      <td><b>Wed<br/>25 Oct</b></td>
+      <td><b>Thu<br/>26 Oct</b></td>
+      <td><b>Fri<br/>27 Oct</b></td>
+      <td><b>Mon<br/>30 Oct</b></td>
+      <td><b>Tue<br/>31 Oct</b></td>
+      <td><b>Wed<br/>01 Nov</b></td>
+      <td><b>Thu<br/>02 Nov</b></td>
+      <td><b>Fri<br/>03 Nov</b></td>
+      <td><b>Mon<br/>06 Nov</b></td>
+      <td><b>Tue<br/>07 Nov</b></td>
+      <td><b>Wed<br/>08 Nov</b></td>
+      <td><b>Thu<br/>09 Nov</b></td>
+      <td><b>Fri<br/>10 Nov</b></td>
+      <td><b>Mon<br/>13 Nov</b></td>
+      <td><b>Tue<br/>14 Nov</b></td>
+      <td><b>Wed<br/>15 Nov</b></td>
+      <td><b>Thu<br/>16 Nov</b></td>
+      <td><b>Fri<br/>17 Nov</b></td>
+      <td><b>Mon<br/>20 Nov</b></td>
+      <td><b>Tue<br/>21 Nov</b></td>
+      <td><b>Wed<br/>22 Nov</b></td>
+      <td><b>Thu<br/>23 Nov</b></td>
+      <td><b>Fri<br/>24 Nov</b></td>
+      <td><b>Mon<br/>27 Nov</b></td>
+      <td><b>Tue<br/>28 Nov</b></td>
+      <td><b>Wed<br/>29 Nov</b></td>
+      <td><b>Thu<br/>30 Nov</b></td>
+      <td><b>Fri<br/>01 Dec</b></td>
+      <td>Mon</td>
+      <td>Tue</td>
+      <td>Wed</td>
+      <td>Thu</td>
+      <td>Fri</td>
+      <td>Mon</td>
+      <td>Tue</td>
+      <td>Wed</td>
+      <td>Thu</td>
+      <td>Fri</td>
+      <td>Mon</td>
+      <td>Tue</td>
+      <td>Wed</td>
+      <td>Thu</td>
+      <td>Fri</td>
+      <td>Mon</td>
+      <td>Tue</td>
+      <td>Wed</td>
+      <td>Thu</td>
+      <td>Fri</td>
+    </tr>
+    <tr class="masterrow_1">
+      <td contenteditable>R1</td>
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+    </tr>
+    <tr class="childrow_1">
+      <td>C11</td>
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+    </tr>
+    <tr class="childrow_1">
+      <td>C12</td>
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+    </tr>
+    <tr class="childrow_1">
+      <td>C13</td>
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+    </tr>
+    <tr class="masterrow_2">
+      <td>R2</td>
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+    </tr>
+    <tr class="childrow_2">
+      <td>C21</td>
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+    </tr>
+    <tr class="childrow_2">
+      <td>C22</td>
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+
+      <td>8hrs</td>
+      <td>2hrs</td>
+      <td>4hrs</td>
+      <td>3hrs</td>
+      <td>2hrs</td>
+
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+      <td>8hrs</td>
+    </tr>
+
+    <!-- Master row 3 and childrow 3 -->
+    <tr class="masterrow_3">
+        <td>R3</td>
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+      </tr>
+      <tr class="childrow_3">
+        <td>C31</td>
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+      </tr>
+      <tr class="childrow_3">
+        <td>C32</td>
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+      </tr>
+    <!-- ############################################# -->
+
+    <!-- Master row 4 and childrow 4 -->
+    <tr class="masterrow_4">
+        <td>R4</td>
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+      </tr>
+      <tr class="childrow_4">
+        <td>C41</td>
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+      </tr>
+      <tr class="childrow_4">
+        <td>C42</td>
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+      </tr>
+    <!-- ############################################# -->
+
+    <!-- Master row 5 and childrow 5 -->
+    <tr class="masterrow_5">
+        <td>R5</td>
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+      </tr>
+      <tr class="childrow_5">
+        <td>C51</td>
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+      </tr>
+      <tr class="childrow_5">
+        <td>C52</td>
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+
+        <td>8hrs</td>
+        <td>2hrs</td>
+        <td>4hrs</td>
+        <td>3hrs</td>
+        <td>2hrs</td>
+
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+        <td>8hrs</td>
+      </tr>
+    <!-- ############################################# -->
+
+    <!-- Activity Table -->
+    <tr id="activityRow">
+      <td id="userName">user1</caption>
+    </tr>
+  </table>
+  <script src="script.js"></script>
+</body>
+
+</html>-
