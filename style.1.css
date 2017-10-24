@@ -1,0 +1,69 @@
+/* Styles go here */
+* {
+    font-family: Roboto sans-serif;
+}
+table,th,tr,td {
+ border: 1px solid rgba(0,0,0,.12);/*1px solid black;*/
+ border-collapse:collapse;
+ padding:0.5em;
+}
+.padding-zero {
+ padding:0;
+}
+.border-none,th.filter,tr.filter,#resourceSchedule {
+ border: none;
+}
+.border-collapse {
+ border-collapse:collapse;
+}
+.font-weight-bold {
+ font-weight: bold;
+}
+td {
+ min-width: 50px;
+ padding:0px;
+ min-height: 80px;
+ text-align: center;
+}
+
+
+tr[class*="master"]>td {
+    text-align:left;
+    padding-left: 1em;
+}
+
+#userName {
+    text-align: left;
+    padding-left:10em;
+}
+
+.view--resource---minWidth {
+    min-width: 10em;
+}
+
+.filter button {
+    margin:0em 0.5em;
+}
+.filter {
+    text-align: left;
+}
+
+button {
+    background: #00897b;
+    color:#ffffff;
+    border:none;
+    border-radius: 10%;
+    font-size:16px;
+    padding:0.2em;
+}
+
+tbody {
+    background: #ffffff;
+}
+
+.timeline-headers {
+    background:#BDBDBD;
+    color:#00897b;
+    font-family: Roboto;
+    font-weight: normal;
+}

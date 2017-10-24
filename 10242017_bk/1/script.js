@@ -12,7 +12,11 @@ function onAppLoad() {
   console.log(mycols);
   let userInfo = document.getElementById('userName');
   userInfo.setAttribute("colspan",mycols);
-  PrepareActivityTable();
+
+  // let filterBar = document.getElementById('filterBar');
+  // filterBar.setAttribute("colspan",mycols);
+
+  //PrepareActivityTable();
 }
 
 function IdentifyRowClicked(e) {
@@ -29,7 +33,7 @@ function IdentifyRowClicked(e) {
         aclassName = p.className;
         console.log('a class name', aclassName);
     }
-
+    PrepareActivityTable();
   });
 
   console.log(contained);
@@ -45,6 +49,8 @@ function IdentifyRowClicked(e) {
 
 
  function toggle(y) {
+  //alert(1);
+  //console.log(y);
   for (var i = 0; i < y.length; i++)
     {
        if(y[i].style.display=='none' ){
@@ -67,20 +73,16 @@ function PrepareActivityTable() {
     'Unavailable'
   ]
 
-  var table1 = document.getElementById("resourceSchedule");
-  var row = table1.insertRow(table1.rows.length);
-  var cell1 = row.insertCell(0);
-  console.log('cell1',cell1);
-  cell1.innerHTML = `<button class='rmt-large-button'>Add New Activity</button>`;
-
+  //var activitiesLength = activities.length;
 
   var activitiesRows = activities.map(x=>{
+    //var newRow =  document.createElement('tr');
+    // var newTable = document.getElementById('resourceSchedule');
+    // var rowCount = newTable.rows.length;
+    // var row = newTable.insertRow(rowCount);
 
     var table = document.getElementById("resourceSchedule");
     var row = table.insertRow(table.rows.length);    //inserts row at index 1, like in your example
-    var matches = document.querySelectorAll('tr[activityrow="true"]');
-    console.log('matches',matches)
-    row.setAttribute('activitynewrow',true);
     var cell1 = row.insertCell(0);
     console.log('cell1',cell1);
     cell1.className="stickyActivity";
@@ -91,7 +93,9 @@ function PrepareActivityTable() {
       var cellm = row.insertCell(i);
       cellm.setAttribute('contenteditable',true);
       cellm.className="rmt-font-family";
-      cellm.innerHTML = `${i}hrs`; //"data"+i;
+      cellm.innerHTML = `data${i}`; //"data"+i;
     }
+    //var cell2 = row.insertCell(1);
+    //cell2.innerHTML = "data2"; //should have other activity values of its object.
   });
 }

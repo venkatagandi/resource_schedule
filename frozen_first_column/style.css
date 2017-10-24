@@ -1,0 +1,26 @@
+* {
+    font-family: Roboto sans-serif;
+}
+table,th,tr,td {
+ /*border: 1px solid rgba(0,0,0,.12);1px solid black;*/
+ border-collapse:collapse;
+ padding:0.5em;
+}
+td, th {
+    min-width: 50px;
+}
+
+.container {
+    overflow-x: scroll;
+    margin-left: 50px;
+}
+
+td:not(.fixed) {
+  border: 1px solid rgba(0,0,0,.12);
+}
+
+.fixed {
+    position: absolute;
+    left: 0;
+    background: #aaa;
+}
